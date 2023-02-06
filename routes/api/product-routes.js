@@ -26,7 +26,7 @@ router.get('/:id', async (req, res) => {
       include: [{ model: Product}, {model: Tag}]
     });
     if (!categoriesData) {
-      res.status(404).json({message: 'There is no product with that id.'});
+      res.status(404).json({message: 'There is nothing in this product with that ID.'});
       return;
     }
     res.status(200).json(productData);
@@ -109,8 +109,20 @@ router.put('/:id', (req, res) => {
     });
 });
 
-router.delete('/:id', (req, res) => {
+router.delete('/:id', async (req, res) => {
   // delete one product by its `id` value
+  try {
+    const productData = await Product.destroy({
+      where: {id: req.params.id},
+    });
+    if (!productData) {
+      res.status(404).json({message: 'There is no product with that id.'});
+      return;
+    }
+    res.status(200).json({message: `You have successfully deleted the product with the id ${req.params.id}`});
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 module.exports = router;
