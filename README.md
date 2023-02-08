@@ -1,10 +1,10 @@
-# Project Title
-E-Commerce Database
+# E-Commerce Database
+
 ## Description
 
-This project involved creating a database and then using seed data to fill the database. After the database had info stored in it the user would be able to manipulate in any way they want by means of create, update, and delete. 
+This project involved creating a database and then using seed data to fill the database. After the database had info stored in it the user would be able to manipulate in any way they want by means of Create, Read, Update, and Delete. 
 
-While building this project I learned to:
+I HAVE learned to:
 
 1. Connect routes to models
 2. Create a database and tables inside the database. 
@@ -28,9 +28,9 @@ Insomnia, JavaScript, mySQL, Node.js, Sequelize, Express, DBeaver
 Install comment: 
 
 * Clone the Repo from github to your system.
-* Install node.js if not already installed.
-* Install DBeaver if not already installed.
-* Install Insomnia if not already installed.
+* Install node.js installed.
+* Install DBeaver installed.
+* Install Insomnia.
 * Open the terminal of the repo and run npm i.
 * You will need to go into the db folder and click on the schema and run the contents of it in DBeaver. 
 * Lastly you will need to make sure you are in the outermost layer of the file and run npm run seed to seed the databases.
@@ -45,7 +45,7 @@ Install comment:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contributing
-I am open to suggestions to help improve this repo as well as comments of things you like. Feel free to make change at any time. 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
