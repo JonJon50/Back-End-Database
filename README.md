@@ -1,5 +1,5 @@
 # Project Title
-Ecommerce Backend Project
+E-Commerce Database
 ## Description
 
 This project involved creating a database and then using seed data to fill the database. After the database had info stored in it the user would be able to manipulate in any way they want by means of create, update, and delete. 
@@ -35,6 +35,9 @@ Install comment:
 * You will need to go into the db folder and click on the schema and run the contents of it in DBeaver. 
 * Lastly you will need to make sure you are in the outermost layer of the file and run npm run seed to seed the databases.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+🔭 [Walkthrough video](https://drive.google.com/file/d/16GpRPPuBO1EuKKWVcw59faswvvdspJrM/view)🔭 
+
 
 ## Usage
 1. Open the terminal and run the command line of npm start
